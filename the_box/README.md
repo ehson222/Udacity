@@ -1,20 +1,16 @@
 # Assignment: create clone of mockup webpage (using only html and css)
 
-## title?
-
-
-### 
-Text here describing things
+## user made clone of webpage
 
 <p align="center">
-    <img src="https://github.com/ehson222/Udacity/blob/master/the_box/images/assignment01.pdf" alt="Image" width="" height="" />
+    <img src="https://github.com/ehson222/Udacity/blob/master/the_box/images/mockup.png" alt="Image" width="" height="" />
 </p>
 
+## actual mockup webpage
 
-
-## more text maybe
-
-
+<p align="center">
+    <img src="https://github.com/ehson222/Udacity/blob/master/the_box/images/mockup.png" alt="Image" width="" height="" />
+</p>
 
 
 
