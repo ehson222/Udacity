@@ -1,0 +1,106 @@
+<!-- This is an HTML comment. Comments allow you to communicate with other programmers using
+text that will be ignored by the computer! -->
+<!DOCTYPE html> <!-- The DOCTYPE tells the browser what kind of document this is (HTML) -->
+<html lang="en">
+
+<head>
+  <!-- The head tag includes important information about the page -->
+  <meta charset="UTF-8">
+  <!-- This line defines something called "character encoding"
+  This will allow the browser to display certain characters (such as non-Roman letters) correctly.
+  You should include this line in the head of all of your webpages. -->
+  <title>My Notes</title> <!-- This is the title of your page (what appears in the name of a browser tab) -->
+  <link rel="stylesheet" href="style.css"> <!-- This line links your CSS stylesheet to your HTML -->
+</head>
+
+<body>
+  <!-- The body tag is where the "flesh" of your HTML goes -->
+  <!-- Write your main HTML content here -->
+  <h1>Welcome to Intro To Prog: Project 1</h1>
+  <h2>Goal: Make Webpage Structured And Responsive</h2>
+  <div class="container_main">
+    <div class="container_left">
+      <p id="nav">nav space</p>
+      <ul class="menu">
+        <li class="menu_option">
+          <a href="index.html">home</a>
+        </li>
+        <li class="menu_option">
+          <a href="the_box/the_box_model.html">mockup</a>
+        </li>
+      </ul>
+    </div>
+    <div class="container_middle">
+      <div class="container_0">
+        <div>
+          <h3>This webpage is made entirely of html and css</h3>
+          <p>
+            Each part of the webpage should follow through with continuity in its structure and code. <br> <br>
+            This web page has passed both <a href="https://validator.w3.org">HTML</a> and <a
+              href="https://jigsaw.w3.org/css-validator/">CSS</a> validators. <br> <br>
+            <em>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. A repellat neque, hic minima aut, praesentium
+              beatae laboriosam commodi maxime enim voluptas, reiciendis dolor inventore quasi quae ad libero saepe.
+              Ut!
+            </em>
+          </p>
+          <p>
+            Each section should have:
+          </p>
+          <ul class="a">
+            <li> A title</li>
+            <li> At least one...</li>
+          </ul>
+          <p>
+            The div root in this sections uses the '<em class="flex">display:flex;</em>' style. As does the other 2
+            sections below.
+          </p>
+        </div>
+      </div>
+      <div class="container_1">
+        <div>
+          <h3>H3 tag goes here</h3>
+          <p>
+            More stuff I've worked on can be found at my <a href="https://github.com/ehson222">github</a> page. <br>
+            <br>
+            <em>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. A repellat neque, hic minima aut, praesentium
+              beatae laboriosam commodi maxime enim voluptas, reiciendis dolor inventore quasi quae ad libero saepe.
+              Ut!
+            </em>
+          </p>
+          <p>
+            Each section should have:
+          </p>
+          <ol class="a">
+            <li> A title</li>
+            <li> At least one...</li>
+          </ol>
+        </div>
+      </div>
+      <h3>A side by side image and paragraph demo</h3>
+      <div class="container_2">
+        <div class="content_pic"><img src="assets/pexels-photo-220357.jpeg" alt="keyboard pic"></div>
+        <div>
+          <h3> Another h3 tag</h3>
+          <p>
+            There was an issue with making the picture to the left web responsive. The image is inside a
+            div container. The div has a class name '<em class="content_word">content_pic</em>' and any changes to this
+            would
+            not take effect.
+            The solution/fix to this issue was to call the '<em class="content_word">content_pic</em>' element and then
+            link the '<em class="content_word">img</em>' attribute.
+            Now all changes take effect. <br> <br> Photo taken by <i>Hitarth Jadhav</i> from <a
+              href="https://www.pexels.com/photo/close-up-photo-of-keyboard-220357/">pexels.com</a> a royalty free stock
+            photo site.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>

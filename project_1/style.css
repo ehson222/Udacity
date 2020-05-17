@@ -1,0 +1,148 @@
+/* This is a CSS comment. Notice that CSS comments are
+enclosed by different characters than HTML comments. */
+
+/* CSS allows you to give your page style (colors, shapes, fonts, etc.)
+You can apply CSS elements to entire HTML classes.*/
+* {
+    /* margin: 1px; */
+    /* border: red solid .02px;  */
+    /* background-color: rgba(0,0,0,0.15); */
+} 
+
+* {
+    /* -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box; */
+} 
+
+.a{
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.container_main{
+    border-color: lightgray;
+    /* display: -webkit-flex; */
+    display: flex;
+    /* width: 90%; */
+    /* min-width: 500px; */
+    /* margin: auto; */
+    /* max-width: 1550px; */
+}
+.container_0{
+    border-top: dashed;
+    border-bottom: dashed;
+    border-color: lightgray;
+    /* display: -webkit-flex; */
+    display: flex;
+    width: 90%; 
+     /* min-width: 500px; */
+    /* margin: auto; */
+    /* max-width: 1550px; */
+}
+
+.container_1{
+    border-bottom: dashed;
+    border-color: lightgray;
+    /* display: -webkit-flex; */
+    display: flex;
+    width: 90%;
+    /* min-width: 500px;
+    margin: auto;
+    max-width: 1550px; */
+    
+}
+
+.container_2{
+    border-bottom: dashed;
+    border-color: lightgray;
+    /* display: -webkit-flex; */
+    display: flex;
+    width: 90%; 
+    /* min-width: 500px; */
+    /* max-width: 1550px;  */
+}
+
+.flex{
+    color: rgb(255, 132, 0);
+}
+
+.menu{
+    margin: 1px 0px 1px 0px;
+    padding-left: 40px;
+}
+
+.menu li{
+    width: 100%;
+}
+
+.menu li a{
+    color: grey;
+}
+
+.container_left{
+    float: left;
+    width: 11%;
+    background-color: rgb(0, 42, 52);
+}
+.container_middle{
+    float: left;
+    width: 89%;
+    background-color:rgb(249, 249, 249);
+}
+
+ .container_middle .container_0 div{
+    background-color: rgb(249, 249, 249);
+}
+
+.content_pic img{
+    /* width:auto; */
+    /* height: auto; */
+    /* min-height: 50px; */
+    /* max-height: 450px; */
+    width: 100%;
+    border-radius: 40px;
+}
+
+.content_word{
+    color: rgb(232, 8, 8);
+}
+
+body{
+    font-size: 2vw;
+}
+
+h3{
+    text-align: center;
+    background-color: rgb(249, 249, 249);
+    width: 90%;
+    margin: 0px 0px 0px 0px;
+    
+}
+
+h2{
+    text-align: center;
+    background-color: lightblue;
+    margin: 0px;
+    padding: 10px;
+    color: lightcyan;
+}
+
+h1{
+    background-color:  rgb(0, 23, 29);
+    color: rgb(242, 242, 242);
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+.container_left #nav{
+    color: rgb(232, 232, 232);
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-style: groove;
+    border-width: 1px;
+    border-top: 0px;
+}
