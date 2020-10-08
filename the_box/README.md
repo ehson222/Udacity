@@ -1,4 +1,4 @@
-# Assignment: create clone of mockup webpage (using only html and css)
+# Assignment: create clone of mockup webpage (using only html and css).
 
 ## user made clone of webpage
 
